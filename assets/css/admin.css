@@ -1,0 +1,111 @@
+.wpc-form table > tbody > tr > td:nth-child(1) {
+    max-width: 300px;
+    padding-right: 2em;
+}
+.wpc-form table td {
+    padding: 1.77em 0 2em 0;
+}
+.wpc_upload {
+    border: 1px solid #ddd;
+    display: inline-block;
+    background: #fff;
+    padding: 1em;
+    margin: 2px 1px;
+    vertical-align: top;
+}
+.wpc_upload img {
+    max-height: 200px;
+    width: auto;
+}
+.wpc_upload .meta {}
+.wpc_upload > div > span:nth-child(2) {
+    float: right;
+}
+.wpc_upload .actions {
+    border-top: 1px solid #ddd;
+    padding-top: 7px;
+    margin-top: 7px;
+}
+
+.wpc-s-u {
+    display: block;
+    border: 1px solid #D6D6D6;
+    /* margin: 4px 0; */
+    padding: 1em;
+    box-shadow: 1px 1px 1px #E6E6E6;
+    margin-bottom: 3px;
+}
+.wpc-s-u > div {
+    display: block;
+    vertical-align: top;
+    overflow: hidden;
+}
+.wpc-s-u .avatar-c {}
+.wpc-s-u .body-c {
+    margin-top: 7px;
+}
+.wpc-s-u .avatar-c a {
+    overflow: hidden;
+}
+.wpc-s-u .avatar-c span {}
+.wpc-s-u .avatar-c img {
+    float: left;
+    margin-right: 7px;
+}
+.wpc-s-u .avatar-c em {}
+.wpc-s-u .avatar-c em.online {
+    color: #07BF0E;
+    font-weight: 600;
+}
+.wpc-s-u .bio {
+    margin-top: 5px;
+}
+.wpc-s-u a {
+    color: #505050;
+}
+.wpc-s-u .actions {
+    float: right;
+}
+.wpc-s-u .actions a {
+    margin-right: 7px;
+}
+.wpc-s-u .actions a > span {
+    text-decoration: none;
+    margin-right: 3px;
+}
+
+.wrap .wpc-pagi {
+    display: block;
+    border: 1px solid #ddd;
+    padding: 1em;
+    text-align: center;
+    margin-top: 5px;
+    overflow: hidden;
+}
+.wrap .wpc-pagi a {
+    text-decoration: none;
+    color: #555;
+    border: 1px solid #D0D0D0;
+    padding: 4px 9px;
+    margin-right: 2px;
+    /* border-bottom: 1px solid #555; */
+}
+/*.wrap .wpc-pagi a:nth-child(1) {
+    border-radius: 5px 0 0 5px;
+    -webkit-border-radius: 5px 0 0 5px;
+    -moz-border-radius: 5px 0 0 5px;
+    -ms-border-radius: 5px 0 0 5px;
+}
+.wrap .wpc-pagi a:nth-last-child(1) {
+    border-radius: 0 5px 5px 0;
+    -webkit-border-radius: 0 5px 5px 0;
+    -moz-border-radius: 0 5px 5px 0;
+    -ms-border-radius: 0 5px 5px 0;
+}*/
+
+.wrap .wpc-pagi div:nth-child(1) {
+    float: left;
+}
+.wrap .wpc-pagi div:nth-child(2) {
+    float: right;
+}

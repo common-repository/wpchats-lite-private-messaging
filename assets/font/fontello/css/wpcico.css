@@ -1,0 +1,120 @@
+@font-face {
+  font-family: 'wpcico';
+  src: url('../font/wpcico.eot?53864294');
+  src: url('../font/wpcico.eot?53864294#iefix') format('embedded-opentype'),
+       url('../font/wpcico.woff2?53864294') format('woff2'),
+       url('../font/wpcico.woff?53864294') format('woff'),
+       url('../font/wpcico.ttf?53864294') format('truetype'),
+       url('../font/wpcico.svg?53864294#wpcico') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'wpcico';
+    src: url('../font/wpcico.svg?53864294#wpcico') format('svg');
+  }
+}
+*/
+ 
+ [class^="wpcico-"]:before, [class*=" wpcico-"]:before {
+  font-family: "wpcico";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.wpcico-mail-alt:before { content: '\e800'; } /* '' */
+.wpcico-mail:before { content: '\e801'; } /* '' */
+.wpcico-bell:before { content: '\e802'; } /* '' */
+.wpcico-bell-alt:before { content: '\e803'; } /* '' */
+.wpcico-ok:before { content: '\e804'; } /* '' */
+.wpcico-cancel:before { content: '\e805'; } /* '' */
+.wpcico-flag:before { content: '\e806'; } /* '' */
+.wpcico-flag-empty:before { content: '\e807'; } /* '' */
+.wpcico-upload-cloud:before { content: '\e808'; } /* '' */
+.wpcico-chat:before { content: '\e809'; } /* '' */
+.wpcico-chat-empty:before { content: '\e80a'; } /* '' */
+.wpcico-attention:before { content: '\e80b'; } /* '' */
+.wpcico-trash:before { content: '\e80c'; } /* '' */
+.wpcico-rss-squared:before { content: '\e80d'; } /* '' */
+.wpcico-rss:before { content: '\e80e'; } /* '' */
+.wpcico-picture:before { content: '\e80f'; } /* '' */
+.wpcico-user-times:before { content: '\e810'; } /* '' */
+.wpcico-users:before { content: '\e811'; } /* '' */
+.wpcico-user:before { content: '\e812'; } /* '' */
+.wpcico-user-plus:before { content: '\e813'; } /* '' */
+.wpcico-help-circled:before { content: '\e814'; } /* '' */
+.wpcico-link:before { content: '\e815'; } /* '' */
+.wpcico-attach:before { content: '\e816'; } /* '' */
+.wpcico-lock:before { content: '\e817'; } /* '' */
+.wpcico-lock-open:before { content: '\e818'; } /* '' */
+.wpcico-lock-open-alt:before { content: '\e819'; } /* '' */
+.wpcico-pin:before { content: '\e81a'; } /* '' */
+.wpcico-eye-off:before { content: '\e81b'; } /* '' */
+.wpcico-eye:before { content: '\e81c'; } /* '' */
+.wpcico-thumbs-up-alt:before { content: '\e81d'; } /* '' */
+.wpcico-bookmark:before { content: '\e81e'; } /* '' */
+.wpcico-edit:before { content: '\e81f'; } /* '' */
+.wpcico-bell-off:before { content: '\e820'; } /* '' */
+.wpcico-bell-off-empty:before { content: '\e821'; } /* '' */
+.wpcico-cog:before { content: '\e822'; } /* '' */
+.wpcico-wrench:before { content: '\e823'; } /* '' */
+.wpcico-block:before { content: '\e824'; } /* '' */
+.wpcico-right-dir:before { content: '\e825'; } /* '' */
+.wpcico-angle-right:before { content: '\e826'; } /* '' */
+.wpcico-angle-left:before { content: '\e827'; } /* '' */
+.wpcico-left-dir:before { content: '\e828'; } /* '' */
+.wpcico-globe:before { content: '\e829'; } /* '' */
+.wpcico-toggle-off:before { content: '\e82a'; } /* '' */
+.wpcico-toggle-on:before { content: '\e82b'; } /* '' */
+.wpcico-smile:before { content: '\e82c'; } /* '' */
+.wpcico-gauge:before { content: '\e82d'; } /* '' */
+.wpcico-flag-1:before { content: '\e82e'; } /* '' */
+.wpcico-users-1:before { content: '\e82f'; } /* '' */
+.wpcico-user-1:before { content: '\e830'; } /* '' */
+.wpcico-chat-1:before { content: '\e831'; } /* '' */
+.wpcico-bell-1:before { content: '\e832'; } /* '' */
+.wpcico-spin5:before { content: '\e833'; } /* '' */
+.wpcico-spin6:before { content: '\e834'; } /* '' */
+.wpcico-spin4:before { content: '\e835'; } /* '' */
+.wpcico-facebook-official:before { content: '\e836'; } /* '' */
+.wpcico-twitter:before { content: '\e837'; } /* '' */
+.wpcico-gplus-squared:before { content: '\e838'; } /* '' */
+.wpcico-linkedin-squared:before { content: '\e839'; } /* '' */
+.wpcico-mouse:before { content: '\e83a'; } /* '' */
+.wpcico-instagram:before { content: '\e83b'; } /* '' */
+.wpcico-youtube-squared:before { content: '\e83c'; } /* '' */
+.wpcico-soundcloud-circled:before { content: '\e83d'; } /* '' */
+.wpcico-pinterest-squared:before { content: '\e83e'; } /* '' */
